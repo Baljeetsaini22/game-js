@@ -61,11 +61,6 @@ h1 {
 #purple {
     background-color: purple;
 }
-h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 /* for BMI Calculater */
 .container {
@@ -73,7 +68,14 @@ h2 {
     line-height: 2;
 }
 button {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px ;
+    font-size: 2rem;
+    border-radius: 10px;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 /* for Digital Clock */
@@ -115,4 +117,5 @@ label {
     padding: 10px 0 ;
     font-size: 1rem;
     border-radius: 10px;
+    cursor: pointer;
 }
