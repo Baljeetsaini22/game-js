@@ -20,7 +20,7 @@
         <form class="form">
             <label for="guessField" id="guess">Guess a number</label> <br>
             <input type="text" id="guessField" class="guessField" placeholder="Enter a Number"> <br>
-            <input type="text" id="subt" value="Submit guess" class="guessSubmit" placeholder="0">
+            <button type="submit" id="subt" class="guessSubmit">Submit guess</button>
         </form>
         <div class="resultParas">
             <p>Previous Gusses: <span class="guesses"></span></p>
@@ -51,15 +51,15 @@
     <!-- Color change -->
     <div class="canvas">
         <h1>Color Scheme Switcher</h1>
-        <sapn class="button" id="red"></sapn>
-        <sapn class="button" id="white"></sapn>
-        <sapn class="button" id="blue"></sapn>
-        <sapn class="button" id="yellow"></sapn>
-        <sapn class="button" id="purple"></sapn>
         <h2>
             Try clicking on one of the colors above 
-            <span>to change the background color fo this page</span>
+            <span>to change the background color of this page</span>
         </h2>
+        <span class="button" id="red"></span>
+        <span class="button" id="white"></span>
+        <span class="button" id="blue"></span>
+        <span class="button" id="yellow"></span>
+        <span class="button" id="purple"></span>
     </div>
     <script src="./colorchange.js"></script> 
     <script src="./calculateWeight.js"></script>  
